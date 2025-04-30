@@ -13,7 +13,7 @@ export const CardH = ({data}) => {
 
             <h1 className="font-semibold text-2xl ">{title}</h1>
             <p className="text-sm text-gray-200"> {excerpt}</p>
-            <Link className="btn py-2 -mt-18 px-10 bg-black text-white" to={`/${id}`}>Read more</Link>
+            <Link className="btn py-2 -mt-18 md:-mt-1 px-10 bg-black text-white" to={`/${id}`}>Read more</Link>
         </div>
     </div>
     </div>
