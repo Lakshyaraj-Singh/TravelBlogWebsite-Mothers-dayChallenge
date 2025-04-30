@@ -23,7 +23,7 @@ export const Navbar = () => {
   return (
     <div>
       <div className="navbar relative max-h-20 bg-base-100 shadow-sm">
-        <div className="flex-1 invisible md:block">
+        <div className="flex-1 invisible md:visible">
           <Link to="/" className="btn-ghost font-bold text-xl">
             Personal Travel Blog
           </Link>
