@@ -8,10 +8,10 @@
 
 **Lakshyaraj Singh Ranawat**  
 B.Tech CSE, VIT Bhopal University
-👉 [My LinkedIn ]({"https://www.linkedin.com/in/lakshyarajsinghranawat/"}) 
+👉 [My LinkedIn ](https://www.linkedin.com/in/lakshyarajsinghranawat/) 
 ## 📍 Live Demo
 
-👉 [Visit the Live Website]({"https://travelblogchallenge.vercel.app"})  
+👉 [Visit the Live Website](https://travelblogchallenge.vercel.app)  
 _(Deployed on Vercel)_
 
 ---
