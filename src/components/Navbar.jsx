@@ -58,7 +58,7 @@ export const Navbar = () => {
               className="input font-medium text-center input-bordered w-127"
             />
             {allArticles.length > 0 && (
-              <div className="flex flex-col gap-1 overflow-y-scroll absolute max-h-80 w-127 right-1 z-50 top-17 bg-white rounded shadow-md p-2">
+              <div className="flex flex-col gap-1 overflow-y-scroll absolute max-h-80 w-100 md:w-127 left-36 md:left-0 md:right-1 z-50 top-17 bg-white rounded shadow-md p-2">
                 {allArticles.map((article)=>(
 
                 <Searchcard data={article} setQuery={setQuery}  />
