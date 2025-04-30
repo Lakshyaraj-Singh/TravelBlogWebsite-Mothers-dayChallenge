@@ -23,7 +23,7 @@ export const Navbar = () => {
   return (
     <div>
       <div className="navbar relative max-h-20 bg-base-100 shadow-sm">
-        <div className="flex-1">
+        <div className="flex-1 invisible md:block">
           <Link to="/" className="btn-ghost font-bold text-xl">
             Personal Travel Blog
           </Link>
@@ -55,7 +55,7 @@ export const Navbar = () => {
               onChange={filteredArticles}
               type="text"
               placeholder="Search articles..."
-              className="input font-medium text-center input-bordered w-127"
+              className="input font-medium text-center input-bordered w-79 md:w-127"
             />
             {allArticles.length > 0 && (
               <div className="flex flex-col gap-1 overflow-y-scroll absolute max-h-80 w-100 md:w-127 left-36 md:left-0 md:right-1 z-50 top-17 bg-white rounded shadow-md p-2">
