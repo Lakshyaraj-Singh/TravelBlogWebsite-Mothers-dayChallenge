@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export const HomeCard = ({imageUrl,read,category,title,excerpt,id}) => {
   return (
     <>
-     <div className="flex justify-center gap-4  items-center h-85  md:h-90 bg-sky-100">
+     <div className="flex md:justify-center md:gap-4 items-center h-93  md:h-90 bg-sky-100">
         <div className=" w-2/4 h-full  bg-amber-400"> <img className="object-cover h-full w-full" src={imageUrl} alt="" /></div>
       
        <div className="p-5 space-y-3 w-3/4 h-full">

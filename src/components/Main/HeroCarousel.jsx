@@ -20,11 +20,11 @@ export const HeroCarousel = () => {
   
     return (
       <>
-        <div className="navigation-wrapper bg-black w-[410px] md:w-[600px]" >
+        <div className="navigation-wrapper  bg-black w-[290px] md:w-[600px]" >
           <div ref={sliderRef} className="keen-slider">
             {blog.map((data)=>(
 
-            <div className="keen-slider__slide number-slide1">
+            <div className="keen-slider__slide number-slide1 h-full">
                 <CardH data={data}/>
             </div>
             ))}

@@ -8,7 +8,7 @@ export const Searchcard = ({data ,setQuery}) => {
     <div className="ml-5">
 
         <div onClick={()=>{navigate(`/${id}` );
-    setQuery("")}} className="card cursor-pointer bg-base-100 w-full h-30shadow-sm">
+    setQuery("")}} className="card cursor-pointer bg-base-100 w-full shadow-sm">
   <div className=" items-center p-3 flex justify-between">
     <div>
 
